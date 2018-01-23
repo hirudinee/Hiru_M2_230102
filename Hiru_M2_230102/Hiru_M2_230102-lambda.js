@@ -7,7 +7,7 @@ exports.handler = function (event, context, callback) {
 	s3.copyObject({
 		'Bucket': "hiru.sampleresized",
 		'CopySource': "/hiru.sample/",
-		'Key': ""
+		'Key': "thisistest"
 	}).promise()
 		.then(data => {
 			console.log(data);           // successful response
