@@ -1,0 +1,8 @@
+{
+  "name": "Hiru_M2_230102",
+  "version": "",
+  "dependencies": {
+    "aws-sdk": "2.176.0",
+    "@slappforge/slappforge-sdk": "0.0.1"
+  }
+}
